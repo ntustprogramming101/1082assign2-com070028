@@ -112,7 +112,7 @@ switch(gameState){
     
       //move
         if(upPressed){
-        groundHogY-=20;
+        groundHogY-=80;
         if(groundHogY==measure*2||groundHogY==measure*3
         ||groundHogY==measure*4||groundHogY==measure*5){
           upPressed=!upPressed;
@@ -120,7 +120,7 @@ switch(gameState){
       }
       
       if(downPressed){
-       groundHogY+=20;
+       groundHogY+=80;
         if(groundHogY==measure*2||groundHogY==measure*3
         ||groundHogY==measure*4||groundHogY==measure*5){
           downPressed=!downPressed;
@@ -128,14 +128,14 @@ switch(gameState){
       }
       
       if(rightPressed){
-        groundHogX+=20;
+        groundHogX+=80;
           if(groundHogX==measure*2||groundHogX==measure*3
         ||groundHogX==measure*4||groundHogX==measure*5){
           rightPressed=!rightPressed;
         }
       }
       if(leftPressed){
-        groundHogX-=20;
+        groundHogX-=80;
           if(groundHogX==measure*2||groundHogX==measure*3
         ||groundHogX==measure*4||groundHogX==measure*5){
           leftPressed=!leftPressed;
